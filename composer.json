@@ -1,0 +1,15 @@
+{
+	"name": "icanboogie/module-installer",
+	"description": "Module installer for ICanBoogie",
+	"type": "composer-installer",
+	"license": "BSD-3-Clause",
+	"autoload": {
+		"psr-0": {
+			"ICanBoogie\\Composer": "lib/"
+		},
+		"files": [ "bootstrap.php" ]
+	},
+	"extra": {
+		"class": "ICanBoogie\\Composer\\ModuleInstaller"
+	}
+}
