@@ -14,4 +14,4 @@
  *
  * @var string
  */
-define('ICanBoogie\Modules\DIR', $vendorDir . DIRECTORY_SEPARATOR . 'icanboogie-modules' . DIRECTORY_SEPARATOR);
+define('ICanBoogie\Modules\DIR', dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'icanboogie-modules' . DIRECTORY_SEPARATOR);
