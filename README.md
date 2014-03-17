@@ -10,6 +10,15 @@ directory seprator.
 
 
 
+## Support for ICanBoogie's auto-config
+
+The package offers support for ICanBoogie 2.x auto-config features and adds the directory in which
+the modules are installed to `module-path`.
+
+
+
+
+
 ## License
 
-The software is licensed under the New BSD License - See the LICENSE file for details.
+The software is licensed under the New BSD License - See the [LICENSE](LICENSE) file for details.
