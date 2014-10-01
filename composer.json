@@ -9,7 +9,14 @@
 		},
 		"files": [ "bootstrap.php" ]
 	},
+
 	"extra": {
-		"class": "ICanBoogie\\Composer\\ModuleInstaller"
+
+		"class": "ICanBoogie\\Composer\\ModuleInstaller",
+
+		"icanboogie": {
+
+			"module-path": "../../icanboogie-modules/"
+		}
 	}
 }
