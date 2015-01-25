@@ -11,17 +11,12 @@
 	},
 
 	"require": {
-
-		"icanboogie/module": ">=2.0.0"
-
+		"icanboogie/module": ">=2.1.0"
 	},
 
 	"extra": {
-
 		"class": "ICanBoogie\\Composer\\ModuleInstaller",
-
 		"icanboogie": {
-
 			"module-path": "../../icanboogie-modules/"
 		}
 	}
