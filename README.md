@@ -2,17 +2,15 @@
 
 A custom [Composer](http://getcomposer.org/) installer for [ICanBoogie](http://icanboogie.org/) modules.
 
-ICanBoogie modules are installed in `<vendorDir>/icanboogie-modules/`. The constant
-`ICanBoogie\Modules\DIR` defines the absolute path to this directory, including the trailing
-directory seprator.
+ICanBoogie modules are installed in `<vendorDir>/icanboogie-modules/`.
 
 
 
 
 
-## Support for ICanBoogie's auto-config
+## Support for ICanBoogie autoconfig
 
-The package offers support for ICanBoogie 2.x auto-config features and adds the directory in which
+The package offers support for ICanBoogie _autoconfig_ and adds the directory in which
 the modules are installed to `module-path`.
 
 
