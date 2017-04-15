@@ -8,15 +8,13 @@
 			"ICanBoogie\\Composer": "lib/"
 		}
 	},
-
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"prefer-dist": true,
 	"require": {
-		"icanboogie/module": ">=2.1.0"
+		"icanboogie/module": "^4.0"
 	},
-
 	"extra": {
-		"class": "ICanBoogie\\Composer\\ModuleInstaller",
-		"icanboogie": {
-			"module-path": "../../icanboogie-modules/"
-		}
+		"class": "ICanBoogie\\Composer\\ModuleInstaller"
 	}
 }
